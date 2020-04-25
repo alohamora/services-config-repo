@@ -1,4 +1,4 @@
 server:
   port: 8002
 mongo:
-  uri: "mongodb+srv://aditya:aditya@cluster0-cw5xs.mongodb.net/project?retryWrites=true&w=majority"
+  uri: "mongodb://aditya:aditya@cluster0-cw5xs.mongodb.net/project?retryWrites=true&w=majority"
