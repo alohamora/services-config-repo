@@ -5,3 +5,6 @@ zuul:
     movie-service:
       path: /api/m/**
       url: http://localhost:8002/
+    book-service:
+      path: /api/b/**
+      url: http://localhost:8001/
