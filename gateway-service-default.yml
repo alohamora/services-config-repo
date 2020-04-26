@@ -1,0 +1,7 @@
+server:
+  port: 5050
+zuul:
+  routes:
+    movie-service:
+      path: /api/m/**
+      url: http://localhost:8002/
