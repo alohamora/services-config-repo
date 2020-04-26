@@ -2,9 +2,12 @@ server:
   port: 5050
 zuul:
   routes:
-    movie-service:
-      path: /api/m/**
-      url: http://localhost:8002/
     book-service:
       path: /api/b/**
       url: http://localhost:8001/
+    movie-service:
+      path: /api/m/**
+      url: http://localhost:8002/
+    user-service:
+      path: /api/u/**
+      url: http://localhost:8003/
