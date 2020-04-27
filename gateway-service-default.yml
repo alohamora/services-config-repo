@@ -11,3 +11,6 @@ zuul:
     user-service:
       path: /api/u/**
       url: http://localhost:8003/
+    recommendation-service:
+      path: /api/r/**
+      url: http://localhost:8004/
